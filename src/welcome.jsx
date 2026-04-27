@@ -13,9 +13,9 @@ export default function WelcomeHero({ isPageLoaded }) {
   const [showScroll, setShowScroll] = useState(false);
 
   const stateRef = useRef({
-    target: { x: 800, y: 0, scale: 1.0 },
-    smooth: { x: -800, y: 0, scale: 1.0 },
-    trail: { x: -800, y: 0 },
+    target: { x: 0, y: 0, scale: 1.0 },
+    smooth: { x: 0, y: 0, scale: 1.0 },
+    trail: { x: 0, y: 0 },
     velocity: { x: 0, y: 0 },
     particles: [],
     isAuto: true,
@@ -216,7 +216,7 @@ export default function WelcomeHero({ isPageLoaded }) {
       </svg>
 
       <div className="hero-content-wrapper">
-        <h3 className="hero-pretitle"> Brought to you by BEST Brasov </h3>
+        <h3 className="hero-pretitle"> Brought to you by BEST Brașov </h3>
         <h2 className="hero-title">BEST Information Technology</h2>
         <p className="hero-subtitle">
           Bridging the gap between academic potential and industry innovation.
