@@ -45,7 +45,7 @@ function Navbar({ isVisible }) {
             <a href="#Organizers" className="nav-link" onClick={() => setMenuOpen(false)}>Organizers</a>
           </li>
           <li className="nav-item">
-            <a href="#Welcome"><button onClick={() => window.open(' https://forms.gle/sfG7BAbapSatzWwW6', '_blank')} className="nav-register-button">Pre-Register</button></a>
+            <a href="#Welcome"><button onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdmXkHsVXuQl-qA5YQectVJgYEsjie-Cn_WU1h2RRVU60CgIg/viewform', '_blank')} className="nav-register-button">Register</button></a>
           </li>
         </ul>
       </div>

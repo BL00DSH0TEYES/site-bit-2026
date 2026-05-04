@@ -9,22 +9,22 @@ export default function ScheduleSection() {
     { 
       day: "Day 1", 
       date: "18 May 2026",
-      events: ["Event 1", "Event 2", "Event 3"] 
+      events: ["❓ Advanced Technologies and Smart Systems Design", "👩‍💼 Prof. Ioana-Corina Bogdan", "🕛 Hour 12:00"] 
     },
     { 
       day: "Day 2", 
       date: "19 May 2026",
-      events: ["Event 1", "Event 2"] 
+      events: ["❓ Cybersecurity, AI and LLMs", "👨‍💼 Prof. Robert Șolca", "🕓 Hour 16:00"] 
     },
     { 
       day: "Day 3", 
       date: "20 May 2026",
-      events: ["Event 1", "Event 2", "Event 3", "Event 4"] 
+      events: ["❓ Advanced Technologies and Smart Systems Design", "👩‍💼 Prof. Liana Luminița Boca", "🕓 Hour 16:00"]
     },
     { 
       day: "Day 4", 
       date: "21 May 2026",
-      events: ["Event 1", "Event 2", "Event 3"] 
+      events: ["❓ Modern Full-Stack Web Development with Next.js: Best Practices for Building Modern, Scalable Web Applications", "👥 Asociația Studenților la Informatică și Matematică din Brașov", "🕛 Hour 12:00"] 
     },
   ];
 
@@ -110,11 +110,6 @@ export default function ScheduleSection() {
 
                 {item.events && item.events.map((eventText, i) => (
                 <div key={i} className="event-box">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="30" viewBox="-5 0 30 30" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                  <line x1="12" y1="17" x2="12.01" y2="17"></line>
-                  </svg>
                   <p>{eventText}</p>
                 </div>
                 ))}

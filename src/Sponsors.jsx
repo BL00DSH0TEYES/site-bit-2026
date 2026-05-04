@@ -6,8 +6,9 @@ import sponsor2 from "./misc/sponsor2.png";
 import sponsor3 from "./misc/sponsor3.png";
 import sponsor4 from "./misc/sponsor4.png";
 import sponsor5 from "./misc/sponsor5.png";
+import sponsor6 from "./misc/sponsor6.png";
 
-const sponsors = [sponsor1, sponsor2, sponsor3, sponsor4, sponsor5];
+const sponsors = [sponsor1, sponsor2, sponsor3, sponsor4, sponsor5, sponsor6];
 
 export default function Sponsors() {
   const sponsorScrollerRef = useRef(null);
@@ -37,7 +38,7 @@ export default function Sponsors() {
         <h1>Made possible by our sponsors</h1>
         <div className="scroller" data-speed="slow" ref={sponsorScrollerRef}>
             <div className="scroller__inner">
-                {[...sponsors, ...sponsors, ...sponsors, ...sponsors, ...sponsors].map((src, i) => (
+                {[...sponsors, ...sponsors, ...sponsors, ...sponsors, ...sponsors, ...sponsors].map((src, i) => (
                 <div className="sponsor" key={i}>
                     <img src={src} alt={`Sponsor ${i + 1}`} />
                 </div>

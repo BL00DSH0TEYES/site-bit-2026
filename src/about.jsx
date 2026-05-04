@@ -16,7 +16,7 @@ export default function AboutSection() {
                     about emerging trends and how these could transform industries. Come see live demonstrations of the
                     latest technologies and solutions used in everyday life and how these can be implemented in
                     different domains!
-                    <br/><br/><br/><button onClick={() => window.open(' https://forms.gle/sfG7BAbapSatzWwW6', '_blank')} className="bestbrasov-button">Pre-Register right now!</button>
+                    <br/><br/><br/><button onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdmXkHsVXuQl-qA5YQectVJgYEsjie-Cn_WU1h2RRVU60CgIg/viewform', '_blank')} className="bestbrasov-button">Register right now!</button>
                 </p>
             </div>
             <br/><br/><br/><br/>
