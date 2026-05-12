@@ -9,17 +9,17 @@ export default function ScheduleSection() {
     { 
       day: "Day 1", 
       date: "18 May 2026",
-      events: ["❓ Advanced Technologies and Smart Systems Design", "👩‍💼 Prof. Ioana-Corina Bogdan", "🕛 Hour 12:00"] 
+      events: ["❓ Advanced Technologies and Smart Systems Design", "👩‍💼 Șef lucr. Dr. Ing. Ioana-Corina Bogdan", "🕛 Hour 12:00"] 
     },
     { 
       day: "Day 2", 
       date: "19 May 2026",
-      events: ["❓ Cybersecurity, AI and LLMs", "👨‍💼 Prof. Robert Șolca", "🕓 Hour 16:00"] 
+      events: ["❓ Cybersecurity, AI and LLMs", "👨‍💼 Prof. drd. Robert Șolca", "🕓 Hour 16:00"] 
     },
     { 
       day: "Day 3", 
       date: "20 May 2026",
-      events: ["❓ Advanced Technologies and Smart Systems Design", "👩‍💼 Prof. Liana Luminița Boca", "🕓 Hour 16:00"]
+      events: ["❓ Operation DarkNet", "👩‍💼 Asist. drd. Liana Luminița Boca", "🕓 Hour 16:00"]
     },
     { 
       day: "Day 4", 
